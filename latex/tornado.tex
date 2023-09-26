@@ -1,0 +1,38 @@
+
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{ mathrsfs }
+\usepackage{amssymb} %maths
+\usepackage{amsmath} %maths
+\usepackage[margin=0.2in]{geometry}
+\usepackage{graphicx}
+\usepackage{ulem}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{10pt}
+\usepackage{hyperref}
+\usepackage[autostyle]{csquotes}
+
+\usepackage{cancel}
+\renewcommand{\i}{\textit}
+\renewcommand{\b}{\textbf}
+\newcommand{\q}{\enquote}
+%\vskip1.0in
+
+
+
+\begin{document}
+
+\begin{huge}
+
+{\setstretch{0.0}{
+Tornado 
+
+This program displays the evolution of a continuous cellular automaton which is itself randomly evolving. What appears as a rectangular grid is computationally a torus, featuring both vertical and horizontal wrapping. 
+
+This is a twist on Kontinuum where only one filter is used. This filter is applied by a randomly drifting \q{head} that updates a cell according to its neighborhood. The \q{graphics} are done entirely with escape codes in the console. This means that the program can run perfectly as WebAssembly in (for instance) Wasmtime. 
+
+}}
+\end{huge}
+\end{document}

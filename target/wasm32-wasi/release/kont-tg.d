@@ -1,0 +1,1 @@
+/Users/ff/Documents/GitHub/kont-tg/target/wasm32-wasi/release/kont-tg.wasm: /Users/ff/Documents/GitHub/kont-tg/src/curses.rs /Users/ff/Documents/GitHub/kont-tg/src/filter.rs /Users/ff/Documents/GitHub/kont-tg/src/main.rs /Users/ff/Documents/GitHub/kont-tg/src/state.rs
